@@ -1,0 +1,32 @@
+html {
+  font-size: max(3ex, 8vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+figure {
+  box-sizing: border-box;
+  padding-inline: 5vw;
+  margin: auto;
+}
+
+:focus {
+  outline-style: double;
+  outline-width: thick;
+}
+
+:hover {
+  text-decoration-style: wavy;
+}

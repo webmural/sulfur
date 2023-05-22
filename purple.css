@@ -1,0 +1,35 @@
+::selection {
+  background: indigo;
+  color: salmon;
+}
+
+:root {
+  color: purple;
+  background-color: seashell;
+}
+
+:any-link {
+  color: indigo;
+}
+
+:focus {
+  outline-color: rebeccapurple;
+  text-shadow: 1vw 2vh 1em darkviolet;
+}
+
+:hover {
+  outline-color: darkmagenta;
+  text-decoration-color: darkmagenta;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: thistle;
+  }
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    background-color: #bae;
+  }
+}
